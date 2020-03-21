@@ -5,22 +5,22 @@ const menu = {
       desserts: []
     },
     get appetizers() {
-      
+      return this._courses.appetizers;
     },
-    set appetizers(appetizerIn) {
-      
+    set appetizers(appetizers) {
+      this._courses.appetizers = 'appetizers';
     },
-    get main() {
-      
+    get mains() {
+      return this._courses.mains;
     },
-    set main(mainIn) {
-      
+    set mains(mains) {
+      this._courses.mains = 'mains';
     },
     get desserts() {
-      
+      return this._courses.desserts;
     },
-    set desserts(dessertIn) {
-      
+    set desserts(desserts) {
+      this._courses.desserts = 'desserts';
     },
     get courses() {
       return {
